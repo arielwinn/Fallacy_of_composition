@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fallacy of Composition: What My Grandfather's Economics Taught Me About the AI Debate | Ariel Winn</title>
+    <meta name="description" content="A pediatrician and medical educator explores how the fallacy of composition illuminates the AI debate, drawing on her grandfather Paul Samuelson's economic insights.">
+    <meta name="author" content="Ariel Winn">
+    <style>
+        :root {
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --text-muted: #6a6a6a;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --accent: #2c5282;
+            --border: #e2e8f0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 19px;
+            line-height: 1.75;
+            color: var(--text-primary);
+            background-color: var(--bg-primary);
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px 100px;
+        }
+        
+        header {
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            line-height: 1.25;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        
+        .byline {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+        
+        .date {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 48px;
+            margin-bottom: 20px;
+            letter-spacing: -0.01em;
+        }
+        
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 36px;
+            margin-bottom: 16px;
+        }
+        
+        p {
+            margin-bottom: 24px;
+            color: var(--text-primary);
+        }
+        
+        .note-section {
+            margin-top: 64px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+        }
+        
+        .note-section h2 {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+        }
+        
+        .note-section p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        
+        .note-section h3 {
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 48px 0;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        strong {
+            font-weight: 700;
+        }
+        
+        footer {
+            margin-top: 80px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                font-size: 17px;
+            }
+            
+            .container {
+                padding: 40px 20px 80px;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            h2 {
+                font-size: 1.35rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="container">
+        <header>
+            <h1>The Fallacy of Composition: What My Grandfather's Economics Taught Me About the AI Debate</h1>
+            <p class="date">November 26, 2025</p>
+            <p class="byline">Ariel Winn is a pediatrician and medical educator focused on ensuring that new pediatricians provide safe, effective care when they enter practice. She is not an AI expert (nor an economist)—but she has been an early adopter of most things, including AI, much to the concern of various family members and friends.</p>
+        </header>
+
+        <section>
+            <h2>The Thanksgiving Debate</h2>
+            <p>Imagine the Thanksgiving table. The dishes are cleared, the wine is poured, and inevitably—because it's 2025 and this is what we talk about now—someone brings up AI.</p>
+            <p>You know how this goes. I start describing how I've been using it: how it accelerates my work, how I'm designing ways to use it with my kids for personalized learning, how it helps me stress-test my own thinking. I'm enthusiastic. I'm maybe a little evangelical.</p>
+            <p>And then someone else at the table pushes back. They've read the articles. They've seen the studies on misinformation, on manipulation, on what happens when vulnerable people interact with a technology designed to give them what they want. They don't use it at all. They think I'm naive to trust it.</p>
+            <p>The conversation stalls. We're both entrenched. And we leave the table thinking the other person just doesn't get it.</p>
+            <p>I've had this conversation dozens of times. And I've started to think that what traps us isn't a disagreement about facts—it's a fallacy neither of us can see from where we're sitting.</p>
+        </section>
+
+        <section>
+            <h2>We're Both Right—and Both Committing the Same Fallacy</h2>
+            <p>My grandfather, Paul Samuelson, introduced a concept to economics that I find myself returning to constantly in these moments: the fallacy of composition. He defined it simply—the error of assuming that what is true of a part is, on that account alone, also true of the whole.</p>
+            <p>For me, at this moment in my life, AI has led to a lot of good. I use it to review my writing for clarity—to see how something I know deeply might land for someone encountering the ideas for the first time. I use it to stress-test my thinking, to get counterarguments I might not have considered. I use it to organize my kids' schedules, to plan meals for the week. I use it on my antiquing and estate sale adventures to help date and authenticate items—a domain in which I have no expertise and likely trust AI at times when I shouldn't. It accelerates my work, simplifies my life, and allows me to pursue passions that would otherwise feel out of reach.</p>
+            <p>With my kids, I see a world where I could design educational tools tailored to how each of them thinks—a tutor that prompts my 13-year-old to consider other perspectives, one that spots patterns in my younger son's homework struggles. I'm the one who would write the prompts, set the guardrails, define what success looks like. It may not work as intended—there may be unintended consequences I can't predict—but we'd be learning together, adjusting as we go.</p>
+            <p>So when someone at that table tells me AI is dangerous, my instinct is to push back. It's not dangerous <em>for me</em>. It's useful. The risks feel abstract.</p>
+            <p>But the person across the table who worries about AI isn't wrong. They're generalizing from real harms to real people.</p>
+            <p>Here's the thing: we're both committing the fallacy of composition. I'm assuming that because it works for me, broad use must be good for society. They're assuming that because it's dangerous for some, any use must be bad for society. Neither of us can see the whole picture from where we sit.</p>
+            <p>We're both right. And we're both incomplete.</p>
+        </section>
+
+        <section>
+            <h2>AI Is an Amplifier—for Better or Worse</h2>
+            <p>AI amplifies what you bring to it. The tool is the same. The interaction with the user is everything.</p>
+            <p>What you bring to any AI encounter isn't just one thing. There's what you've learned over time, outside of AI—skills, habits of mind, ways of questioning. There's where you sit in life right now—your context, your vulnerabilities, what's happening around you. And there's when you encounter AI and how it intersects with those two.</p>
+            <p>I have had the benefit of learning many of AI's lessons in low-stakes moments. I've learned to use my domain expertise to catch errors, to ask for counterarguments, to not trust outputs blindly. I've learned how to use AI by using it, making mistakes along the way: accepting outputs too quickly, being fooled by confident-sounding nonsense. But those mistakes didn't cost me much, because of who I was and where I was when they happened. I hope I'll keep learning, and that those lessons will continue to come at low risk. Still, I have my own risks—I tend to trust my output, to assume it's good, to believe people will like my work. And there may be other risks I don't yet know about.</p>
+            <p>Not everyone is as lucky to get that combination of learning, context, and timing. The permission to use AI isn't granted individually—it's structural. If it's available to me in low-stakes moments, it's available to someone in a high-risk one—an individual whose interaction results in the avoidance of human connection at a time when they need it most. If it's available for my carefully designed educational interventions, it's available to a teen without a parent or educator designing the prompts, who might use it in a manner that results in avoiding thinking rather than deepening it.</p>
+        </section>
+
+        <section>
+            <h2>The Paradox: Learning Requires the Use We're Trying to Make Safe</h2>
+            <p>An additional layer of complexity: we can't learn about the ways in which AI causes harm—and we can't intervene to prevent it—without people using it. The knowledge about what breaks, and for whom, and under what conditions, can only be generated through use.</p>
+            <p>But the use <em>is</em> the risk—for all of us. No one is exempt.</p>
+            <p>This is where the fallacy of composition gets complicated by time. Broad use may be bad for society in this current moment—people will be harmed. But given that AI is already here and its continued use is inevitable, broad use may also be necessary for what will eventually be good for society.</p>
+            <p>There's no way to run the experiment from the outside. There's no control group for a technology that's already everywhere. The learning is happening now, in real time, in millions of interactions we'll never see. The question isn't whether to allow that—it's already happening. The question is whether we're paying attention to what it's teaching us, and building what we learn back into the systems. The hope is that the guardrails we're developing now will eventually protect (or potentially even benefit) the individual with depression—that AI will get better at not amplifying what shouldn't be amplified. But we're not there yet.</p>
+        </section>
+
+        <section>
+            <h2>Blame Is a Category Error</h2>
+            <p>And here's where I part ways with another common narrative: the search for someone to blame.</p>
+            <p>The framing people want is that someone can prevent all harm—that if the AI companies were more careful, the government more vigilant, Big Tech less profit-driven, we'd be safe. If something goes wrong, someone must be at fault.</p>
+            <p>But this presupposes that we fully understand what the harms are and that someone, somewhere, has the rules that would prevent them. I'm not sure either is true. The full rules don't exist yet—we know some, but not all. Use and learning will bring clarity over time. You can't codify what you don't yet understand.</p>
+            <p>That said, I'd like to hope—and based on a few friends in this space who are working around the clock to do so—that Anthropic, OpenAI, Google, and others are building guardrails in real time, testing, adjusting, discovering what breaks. Regulators can't write legislation for harms that haven't been characterized yet.</p>
+            <p>I'm not in this space. I can't judge where discovery and action intersect, or when inaction becomes negligence for those with the capacity to act. Those who know me know I have a healthy dose of both optimism and skepticism. I hope we get this as "right" as possible over time—but I also acknowledge that we will likely fail in some ways as a community. Much of that will only be visible in hindsight. Some of it will be inaction when the need for action was clear.</p>
+        </section>
+
+        <section>
+            <h2>Holding the Complexity</h2>
+            <p>So what do I say at Thanksgiving?</p>
+            <p>I don't have a tidy answer. I'm not sure anyone does. But I've started to see those conversations differently. It's not that one of us is right and the other is wrong. It's that we're each seeing clearly from where we sit—and neither of us can see the whole picture yet.</p>
+            <p>What we can do is hold the complexity: that benefit and harm coexist, that learning requires use, that no one is in a position to have solved this yet. We can resist the binary—AI is not simply good or bad. We can stop demanding certainty from a system that is still generating its own evidence. We can stay in the discomfort of not knowing, while still acting thoughtfully within it.</p>
+            <p>That's not a satisfying conclusion. But my grandfather also taught me to be suspicious of easy answers.</p>
+            <p>Good questions outrank them every time.</p>
+        </section>
+
+        <hr>
+
+        <section class="note-section">
+            <h2>A Note on Process</h2>
+            <p><em>As much as this essay is trying to say something, it is also trying to demonstrate it. What follows is an attempt to be transparent about how this piece was created—and, in doing so, to surface some of the subtle risks of AI that can present problems if you're not careful. The reactions from others prove the point: even people on opposite ends of the AI spectrum see this differently, and they're both right, because there is no single right answer. That's the thesis.</em></p>
+
+            <h3>How This Essay Was Made</h3>
+            <p><em>This essay was developed in conversation with Claude, an AI assistant made by Anthropic. I came to the conversation with an intuition that something in my grandfather's economic work could reframe the AI debates I'd been having—and a set of ideas I'd been wanting to articulate for some time. I had been using Claude over the past several months to work through my grandfather's quotes and writings; when I described the phenomenon I was seeing in AI debates, Claude identified that the fallacy of composition was the specific concept that fit. Throughout our conversation, I asked Claude to show me the other side—what parts of the narrative was I missing? Where might I be wrong? I also asked Claude to identify where it had shaped the argument versus where I had, and which components were at risk of not reflecting my own thinking—so I could check them. Claude flagged places where it had packaged my ideas into more formal language, and acknowledged the limits of what it could verify about originality. I asked Claude to add subheadings that captured the main thesis of each section—my preference in writing—so readers wouldn't have to search for the argument.</em></p>
+            <p><em>I should note: while I felt comfortable writing this essay collaboratively, I take a different approach when writing research manuscripts and academic perspective pieces. There, it is critical that the ideas, intellectual property, and prose are my own (at least for now). I don't avoid AI in that writing, and I think we do a disservice in academia by making it feel taboo. Still, I am more judicious in its use: I draft first, then use AI as a mechanism for feedback rather than allowing it to generate content. This essay felt like a place to try something different.</em></p>
+
+            <h3>The Subtle Risks: What I Caught on Reflection</h3>
+            <p><em>There are many things I adjusted during the initial conversation, and many more I adjusted afterward based on things we didn't get right initially. This is version 8. I share that to demonstrate the point: the process was iterative, not seamless. (My academic collaborators, who routinely see 15 or 20 versions of a manuscript from me—a classic overthinker, generously stated—would find version 8 charmingly modest.) Here are two examples of the kind of thing that required correction.</em></p>
+            <p><em>When I reflected on the draft overnight, I realized something worth noting: the essay painted me as having exceptional, almost innate capabilities—as though I were uniquely suited to use AI well. That wasn't quite right. Claude had learned from our conversation that I have a healthy degree of self-worth, and it reflected that back in its writing. But in doing so, it subtly distorted the message, making developed skills sound like innate gifts. I caught it on reflection and asked for revisions.</em></p>
+            <p><em>But here's the thing: even after my own revisions, a trusted mentor—someone I work with often—read a draft and pointed out that I was still portraying myself as someone without risk, as inherently different from others. He was right. I hadn't fully seen it.</em></p>
+            <p><em>The truth is, I have my own risks. I joke that I have "pronoia"—the opposite of paranoia (a real term, coined by sociologist Fred Goldner in 1982). I tend to assume people will like my work, that things will go well. That disposition is a liability with AI: I might not scrutinize my own output enough, might miss distortions that another set of eyes would catch. Everyone has risk—mine are just different. And as my mentor's feedback showed, I can't always see them myself.</em></p>
+            <p><em>This is itself an example of the essay's thesis: AI amplifies what you bring to it, for better and worse. Individual reflection helps—but external calibration may matter even more than usual. The checking has to be ongoing, and it can't only be you doing the checking.</em></p>
+
+            <h3>Others' Reactions: Both Right, No Right Answer</h3>
+            <p><em>I shared a draft with two trusted friends—both extraordinarily thoughtful people, on opposite ends of the AI spectrum. Their reactions were telling.</em></p>
+            <p><em>The AI founder loved it—and she, more than anyone, knows AI inside and out. Perhaps because she understands how this works, the question of where my voice begins and ends matters less to her. She sees the collaboration for what it is and evaluates the output on its merits.</em></p>
+            <p><em>The writer asked, with genuine concern: is this you I'm hearing, or is this AI? What did you actually create? I can show my friend the prompts. I can walk her through every exchange. But even that doesn't fully resolve her question—because I could have prompted differently. I could have asked Claude to write in someone else's style, or to sound less like me, or more. The footnote you're reading now was also written collaboratively. There is no clean line I can draw that would let her—or me—say with certainty where my voice ends and the tool's begins. That uncertainty is irreducible.</em></p>
+            <p><em>They're both right. And it's exactly what this essay is about.</em></p>
+
+            <h3>What I'll Get Wrong</h3>
+            <p><em>I am nearly positive that I will read this—not in five years, but in a month, given the pace AI is moving—and cringe at what I didn't get right. What seems nuanced now will be obvious then. What feels like insight will feel like a dated artifact of this particular moment.</em></p>
+            <p><em>And that's the fun of it. That's the learning. That's the joy.</em></p>
+            <p><em>My grandfather famously said: "When the facts change, I change my mind. What do you do, sir?" The willingness to change your mind isn't a weakness—it's the whole point. I expect to change mine. I hope I do. That's how this works.</em></p>
+            <p><em>A small example of the checking process: when I used this quote, Claude flagged that it's often misattributed to Keynes and suggested we verify. A search turned up evidence that my grandfather actually said it first—on Meet the Press in 1970, documented in the transcript. He later attributed it to Keynes in 1978, perhaps echoing something he thought Keynes had said, but the earliest recorded version appears to be his. I don't have access to the primary records myself, so I'm trusting Claude's search and reviewing their evidence. I have more certainty than I did before—but not complete certainty. That's the kind of check that adds up, and the kind of residual uncertainty I've learned to sit with.</em></p>
+
+            <h3>One More Thing (For Another Essay)</h3>
+            <p><em>There's another thought I'll briefly mention here but save my full thoughts for next time: the opportunity cost. This essay was drafted (almost) entirely during car rides—my commute home one evening, my commute to work the next morning. Normally, that's when I call a friend to catch up. This time, I talked to Claude instead. It was fun. It was rewarding. I liked the output. And any single car ride spent this way is fine. But the fallacy of composition applies here too: if every quiet moment becomes AI time, in sum, I'd miss those phone calls. My life would have less human connection, and I might not even notice it happening—because each individual choice seemed harmless. That's a topic for another day.</em></p>
+        </section>
+
+        <footer>
+            <p>Ariel Winn, MD · Harvard Medical School · Boston Children's Hospital</p>
+        </footer>
+    </article>
+</body>
+</html>
